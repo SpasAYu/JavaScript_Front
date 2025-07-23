@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Resume</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="resume" id="resume">
+        <header class="resume-header">
+          <h1 class="editable" contenteditable="true">Your Name</h1>
+          <p class="editable" contenteditable="true">Professional Title</p>
+        </header>
+        
+        <section class="contact-info">
+          <p class="editable" contenteditable="true">Email: your.email@example.com</p>
+          <p class="editable" contenteditable="true">Phone: +1 234 567 890</p>
+          <p class="editable" contenteditable="true">Location: City, Country</p>
+        </section>
+
+        <section class="summary">
+          <h2>Summary</h2>
+          <p class="editable" contenteditable="true">A brief professional summary highlighting your key strengths and career objectives.</p>
+        </section>
+
+        <section class="experience">
+          <h2>Experience</h2>
+          <div class="experience-item">
+            <h3 class="editable" contenteditable="true">Job Title</h3>
+            <p class="editable" contenteditable="true">Company Name | 2020 - Present</p>
+            <ul>
+              <li class="editable" contenteditable="true">Key responsibility or achievement</li>
+              <li class="editable" contenteditable="true">Another key responsibility or achievement</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="education">
+          <h2>Education</h2>
+          <div class="education-item">
+            <h3 class="editable" contenteditable="true">Degree Name</h3>
+            <p class="editable" contenteditable="true">University Name | Graduation Year</p>
+          </div>
+        </section>
+
+        <section class="skills">
+          <h2>Skills</h2>
+          <ul>
+            <li class="editable" contenteditable="true">Skill 1</li>
+            <li class="editable" contenteditable="true">Skill 2</li>
+            <li class="editable" contenteditable="true">Skill 3</li>
+          </ul>
+        </section>
+      </div>
+
+      <div class="actions">
+        <button id="downloadBtn" class="download-btn">Download PDF</button>
+      </div>
+    </div>
+
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>
