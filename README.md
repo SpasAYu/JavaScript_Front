@@ -1,52 +1,68 @@
+# Interactive Resume Editor
 
-# Вступительный экзамен для Front-end разработчика
+An interactive resume editor with real-time editing, local storage persistence, and PDF download functionality. Built using vanilla HTML, CSS, and JavaScript.
 
-## Задача
+## Features
 
-Вашей задачей является создание веб-страницы с резюме, которое должно быть сверстано по данному шаблону. Страница должна иметь возможность изменять текст элементов и предоставлять кнопку "Скачать" для скачивания резюме в формате PDF. В качестве дополнительного задания, необходимо анимировать клики на элементы резюме с помощью CSS-анимаций и добавить эффект "Material Wave".
+- **Real-time Editing**: Click on any text element to edit it directly
+- **Auto-save**: Changes are automatically saved to localStorage
+- **PDF Download**: Convert your resume to PDF with one click
+- **Material Design**: Includes Material Wave (ripple) effect on interactions
+- **Responsive**: Works on all screen sizes
+- **Animations**: Smooth transitions and feedback for all interactions
 
-### Основные требования:
+## Live Demo
 
-1. Создайте макет веб-страницы с резюме на основе предоставленного шаблона. (Сделайте fork этого репозитория)
-2. Добавьте возможность редактирования текстовых элементов резюме, сохраняя изменения внутри элементов.
-3. Реализуйте кнопку "Скачать", которая преобразует текущую версию резюме в формат PDF и начинает загрузку файла на компьютер пользователя.
-   - Допустимо использовать бибилиотеки для преобразования html в pdf (Например React PDF), но можно и просто подложить pdf и скачивать его по ссылке
-4. Все изменения элементов резюме должны быть анимированы с помощью CSS-анимаций.
-5. Разработка должна быть с использованием базовых технологий (html, js, css) без использования сторонних библиотек и фреймворков.
+View the live demo on GitHub Pages: [Interactive Resume Editor](https://your-username.github.io/interactive-resume/)
 
-### Дополнительные задачи:
+## Installation
 
-1. Адаптивность: страница должна корректно отображаться на различных устройствах и разрешениях экрана.
-2. Material Wave (ripple): Добавьте "Material Wave" эффект при взаимодействии с элементами страницы (кликах на элементах).
-3. Оптимизация: обеспечьте быструю загрузку страницы и сохранение введенных данных в случае обновления страницы.
+1. Clone the repository:
+```bash
+git clone https://github.com/your-username/interactive-resume.git
+```
 
+2. Open the project folder:
+```bash
+cd interactive-resume
+```
 
-### Сдача экзамена:
+3. Open `index.html` in your web browser
 
-Ожидается, что вы выложите ваш проект на публичный репозиторий (например, GitHub), напишите краткое описание и инструкцию по установке (если применимо). Предоставьте ссылку на репозиторий и рабочий пример приложения (например, используя GitHub Pages) для проверки.
+No build process or dependencies required! The project uses vanilla HTML, CSS, and JavaScript.
 
-[Как публиковать статические сайты на GitHub Pages?](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
+## Usage
 
-Удачи на экзамене!
+1. Click on any text element to edit it
+2. Your changes are automatically saved
+3. Click the "Download PDF" button to get a PDF version
+4. The resume will maintain your changes even if you close and reopen the browser
 
-[Ссылка на шаблон резюме](https://www.figma.com/design/0lCK90FekbMPNJOOUuiIV8/exam-cv?node-id=0-3&t=51CUbfwKNoVYLV1V-1)
+## Technical Details
 
-Для проверки семантики верстки и качества JS кода существуют различные инструменты и сервисы.
+- Built with semantic HTML5
+- Styled with modern CSS3 features
+- Uses vanilla JavaScript (ES6+)
+- Implements localStorage for data persistence
+- Print-optimized styles for PDF generation
 
-**Для проверки семантики верстки будет использовано:**
+## Browser Support
 
-Валидатор HTML от W3C: https://validator.w3.org
+Works in all modern browsers:
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
 
-**Для проверки качества JS кода будут использоваться инструменты:**
+## Contributing
 
-1. JSHint: https://jshint.com
-   JSHint - это инструмент для анализа кода, который проверяет наличие некорректного, небезопасного или несоответствующего стандартам кода в вашем JavaScript.
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-2. ESLint: https://eslint.org
-   ESLint - мощный линтер для JavaScript, который выявляет ошибки и несоответствующий коду стиля. Установите его в качестве пакета Node.js или интегрируйте с вашим редактором кода.
+## License
 
-**Что может вам помочь?**
-
-Prettier: https://prettier.io
-   Prettier - это инструмент форматирования кода, который автоматически обрабатывает ваш JavaScript (а также CSS, HTML и другие языки), чтобы сделать его более читабельным и соответствующим стандартам.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
